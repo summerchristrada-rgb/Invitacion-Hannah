@@ -1048,28 +1048,36 @@
             masterGain.connect(audioContext.destination);
 
             // Notes for a waltz-like melody (frequencies in Hz)
-            const melody = [
-                { freq: 523.25, duration: 0.8 },  // C5
-                { freq: 659.25, duration: 0.4 },  // E5
-                { freq: 783.99, duration: 0.4 },  // G5
-                { freq: 659.25, duration: 0.8 },  // E5
-                { freq: 587.33, duration: 0.4 },  // D5
-                { freq: 523.25, duration: 0.4 },  // C5
-                { freq: 493.88, duration: 0.8 },  // B4
-                { freq: 440.00, duration: 0.4 },  // A4
-                { freq: 493.88, duration: 0.4 },  // B4
-                { freq: 523.25, duration: 1.2 },  // C5
-                { freq: 392.00, duration: 0.4 },  // G4
-                { freq: 440.00, duration: 0.4 },  // A4
-                { freq: 493.88, duration: 0.8 },  // B4
-                { freq: 523.25, duration: 0.4 },  // C5
-                { freq: 587.33, duration: 0.4 },  // D5
-                { freq: 659.25, duration: 0.8 },  // E5
-                { freq: 523.25, duration: 0.4 },  // C5
-                { freq: 493.88, duration: 0.4 },  // B4
-                { freq: 440.00, duration: 0.8 },  // A4
-                { freq: 392.00, duration: 0.8 },  // G4
-            ];
+const melody = [
+  { freq: 264.0, duration: 0.4 }, // C4
+  { freq: 264.0, duration: 0.4 }, // C4
+  { freq: 297.0, duration: 0.8 }, // D4
+  { freq: 264.0, duration: 0.8 }, // C4
+  { freq: 352.0, duration: 0.8 }, // F4
+  { freq: 330.0, duration: 1.2 }, // E4
+
+  { freq: 264.0, duration: 0.4 }, // C4
+  { freq: 264.0, duration: 0.4 }, // C4
+  { freq: 297.0, duration: 0.8 }, // D4
+  { freq: 264.0, duration: 0.8 }, // C4
+  { freq: 396.0, duration: 0.8 }, // G4
+  { freq: 352.0, duration: 1.2 }, // F4
+
+  { freq: 264.0, duration: 0.4 }, // C4
+  { freq: 264.0, duration: 0.4 }, // C4
+  { freq: 528.0, duration: 0.8 }, // C5
+  { freq: 440.0, duration: 0.8 }, // A4
+  { freq: 352.0, duration: 0.8 }, // F4
+  { freq: 330.0, duration: 0.8 }, // E4
+  { freq: 297.0, duration: 1.2 }, // D4
+
+  { freq: 466.0, duration: 0.4 }, // Bb4
+  { freq: 466.0, duration: 0.4 }, // Bb4
+  { freq: 440.0, duration: 0.8 }, // A4
+  { freq: 352.0, duration: 0.8 }, // F4
+  { freq: 396.0, duration: 0.8 }, // G4
+  { freq: 352.0, duration: 1.2 }, // F4
+];
 
             let time = audioContext.currentTime;
 
@@ -1237,3 +1245,4 @@ window.open(`https://wa.me/525575161809?text=${message}`, '_blank');
     </script>
  <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9db4bac9e62aac5c',t:'MTc3MzMzODc1My4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
+
